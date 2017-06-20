@@ -26,8 +26,8 @@ object Lists {
     * @return The sum of all elements in `xs`
     */
   def sum(xs: List[Int]): Int = {
-    if (xs.isEmpty) return 0
-    else return xs.head + sum(xs.tail)
+    if (xs.isEmpty) 0
+    else xs.head + sum(xs.tail)
   }
 
 
@@ -46,13 +46,13 @@ object Lists {
     */
   def max(xs: List[Int]): Int = {
     def compare(n1: Int, n2: Int): Int = {
-      if (n1 > n2) return n1
-      return n2
+      if (n1 > n2) n1
+      else n2
     }
 
     if (xs.isEmpty) throw new NoSuchElementException("Empty list!")
-    if (xs.length == 1) return xs.head
-    return compare(xs.head, max(xs.tail))
 
+    if (xs.length == 1) xs.head
+    else compare(xs.head, max(xs.tail))
   }
 }
