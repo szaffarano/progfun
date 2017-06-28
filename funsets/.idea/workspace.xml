@@ -20,21 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FunSets.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FunSets.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state relative-caret-position="371">
+              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FunSetSuite.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FunSetSuite.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/funsets/FunSetSuite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1509">
-              <caret line="145" column="62" lean-forward="false" selection-start-line="145" selection-start-column="62" selection-end-line="145" selection-end-column="62" />
+            <state relative-caret-position="506">
+              <caret line="157" column="25" lean-forward="false" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -540,34 +540,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FunSetSuite - 2017.06.27 at 21h 05m 22s.xml">
+    <history-entry file="FunSetSuite - 2017.06.27 at 22h 16m 28s.xml">
       <configuration name="FunSetSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunSetSuite - 2017.06.27 at 21h 05m 45s.xml">
+    <history-entry file="FunSetSuite - 2017.06.27 at 22h 17m 05s.xml">
       <configuration name="FunSetSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunSetSuite - 2017.06.27 at 21h 06m 46s.xml">
+    <history-entry file="FunSetSuite - 2017.06.27 at 22h 18m 10s.xml">
       <configuration name="FunSetSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunSetSuite - 2017.06.27 at 21h 08m 25s.xml">
+    <history-entry file="FunSetSuite - 2017.06.27 at 22h 20m 02s.xml">
       <configuration name="FunSetSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunSetSuite - 2017.06.27 at 21h 10m 24s.xml">
+    <history-entry file="FunSetSuite - 2017.06.27 at 22h 20m 06s.xml">
       <configuration name="FunSetSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunSetSuite - 2017.06.27 at 21h 11m 28s.xml">
+    <history-entry file="FunSetSuite - 2017.06.27 at 22h 20m 22s.xml">
       <configuration name="FunSetSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunSetSuite - 2017.06.27 at 21h 12m 19s.xml">
+    <history-entry file="FunSetSuite - 2017.06.27 at 22h 26m 17s.xml">
       <configuration name="FunSetSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunSetSuite - 2017.06.27 at 21h 15m 44s.xml">
+    <history-entry file="FunSetSuite - 2017.06.27 at 22h 27m 05s.xml">
       <configuration name="FunSetSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunSetSuite - 2017.06.27 at 21h 17m 03s.xml">
+    <history-entry file="FunSetSuite - 2017.06.27 at 22h 27m 20s.xml">
       <configuration name="FunSetSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunSetSuite - 2017.06.27 at 21h 18m 08s.xml">
+    <history-entry file="FunSetSuite - 2017.06.27 at 22h 27m 29s.xml">
       <configuration name="FunSetSuite" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -621,18 +621,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/funsets/FunSetSuite.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1509">
-          <caret line="145" column="62" lean-forward="false" selection-start-line="145" selection-start-column="62" selection-end-line="145" selection-end-column="62" />
+        <state relative-caret-position="371">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/funsets/FunSets.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/funsets/FunSetSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="506">
+          <caret line="157" column="25" lean-forward="false" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
           <folding />
         </state>
       </provider>

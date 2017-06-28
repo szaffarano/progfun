@@ -128,13 +128,13 @@ class FunSetSuite extends FunSuite {
   }
 
   test("forall in range") {
-    val s = (i: Int) => 0 < i && i < 100;
+    val s = (i: Int) => 0 < i && i < 100
 
     assert(forall(s, i => i > 0), "all members of [0,100] are greater than 0")
   }
 
   test("exists in range") {
-    val s = (i: Int) => 0 < i && i < 100;
+    val s = (i: Int) => 0 < i && i < 100
     assert(exists(s, i => i == 1), "1 exists in [0,100]")
     assert(!exists(s, i => i == 100), "100 does not exists in [0,100]")
     assert(exists(s, i => i%2 == 0), "[0, 100] has at least one even number")
@@ -142,10 +142,20 @@ class FunSetSuite extends FunSuite {
 
   test("map") {
     val odds = (i: Int) => i % 2 == 1
+    val s = (i:Int) => 0 < i && i < 100
+    val m = map(s, i => i * 2)
 
     assert(!forall(odds, i => i % 2 == 0), "there aren't even numbers")
 
     assert(forall(map(odds, i => i * 2), i => i % 2 == 0), "all mapped numbers are even")
+    assert(forall(map(s, i => i * 2), i => i % 2 == 0), "The set obtained by doubling all numbers should contain only even numbers")
+
+    assert(contains(s, 1))
+    assert(contains(s, 2))
+    assert(contains(s, 3))
+    assert(contains(m, 2))
+    assert(contains(m, 4))
+    assert(!contains(m, 3))
   }
 
 }
