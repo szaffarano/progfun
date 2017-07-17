@@ -97,6 +97,7 @@ object Huffman {
     }
 
     freqs match {
+      case Nil => List()
       case (c, w) :: Nil => List(Leaf(c, w))
       case _ => insert(Leaf(freqs.head._1, freqs.head._2), makeOrderedLeafList(freqs.tail))
     }
@@ -223,7 +224,7 @@ object Huffman {
     def loop(t: CodeTree)(c: Char): List[Bit] = t match {
       case Fork(l, r, _, _) => {
         val (code, branch) = if (chars(l).contains(c)) (0, l) else (1, r)
-        return code :: loop(branch)(c)
+        code :: loop(branch)(c)
       }
       case Leaf(_, _) => List()
     }
