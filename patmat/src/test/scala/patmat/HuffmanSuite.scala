@@ -12,6 +12,7 @@ class HuffmanSuite extends FunSuite {
 	trait TestTrees {
 		val t1 = Fork(Leaf('a',2), Leaf('b',3), List('a','b'), 5)
 		val t2 = Fork(Fork(Leaf('a',2), Leaf('b',3), List('a','b'), 5), Leaf('d',4), List('a','b','d'), 9)
+    val a1 = List('a', 'b', 'a')
 	}
 
 
@@ -28,6 +29,11 @@ class HuffmanSuite extends FunSuite {
     }
   }
 
+  test("times of a char array") {
+    new TestTrees {
+      assert(times(a1) === List(('a', 2), ('b', 1)))
+    }
+  }
 
   test("string2chars(\"hello, world\")") {
     assert(string2Chars("hello, world") === List('h', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd'))
@@ -44,6 +50,14 @@ class HuffmanSuite extends FunSuite {
     assert(combine(leaflist) === List(Fork(Leaf('e',1),Leaf('t',2),List('e', 't'),3), Leaf('x',4)))
   }
 
+  test("decode a very short text") {
+    new TestTrees {
+      assert(decode(t1, List(0, 1, 0)) == List('a', 'b', 'a'))
+      assert(decode(t1, List(1, 1, 0)) == List('b', 'b', 'a'))
+      assert(decode(t1, List(1, 1, 1)) == List('b', 'b', 'b'))
+      assert(decode(t1, List(0, 1, 1)) == List('a', 'b', 'b'))
+    }
+  }
 
   test("decode and encode a very short text should be identity") {
     new TestTrees {
